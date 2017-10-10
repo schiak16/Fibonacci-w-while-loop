@@ -1,0 +1,26 @@
+#include <iostream> 
+using namespace std;
+
+int main (){
+  int max, a, b, c;
+  
+  a = 0;
+  b = 1;
+  c = a+b;
+  
+  cout << "Enter Max number" << endl;
+  cin >> max;
+  cout << "Fibonacci sequence up to max is: " 
+  cout << b << c;
+  
+  while (a < max){
+    a=b;
+    b=c;
+    c= a+b;
+    
+    cout << c << " ";
+    
+    }
+   
+   return 0;
+  }
